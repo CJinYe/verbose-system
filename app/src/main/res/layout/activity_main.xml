@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cjy.scrawltest.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:layout_alignParentBottom="true"
+                  android:background="@mipmap/draft_background">
+        <ImageButton android:id="@+id/main_but_undo"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:background="@null"
+                     android:src="@mipmap/draft_button_undo_normal"/>
+        <ImageButton android:id="@+id/main_but_redo"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:background="@null"
+                     android:src="@mipmap/draft_button_redo_normal"/>
+        <ImageButton android:id="@+id/main_but_save"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:background="@null"
+                     android:src="@mipmap/boom_menu_ok"/>
+    </LinearLayout>
+</RelativeLayout>
